@@ -1,34 +1,93 @@
-body {Renamed files; shown as the old file marked with D and the new file marked U (Git treats it as
-  font-family: courier new, monospace;
-  text-align: center;
-  color: darkslategray;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 30px;
-  background-color: darkkhaki;
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 h1 {
-  color: black;
+    Font-size: 40px;
+    text-align: center;
+    background-color: #617c5a;
+    color: #f6f2f2;
 }
 
 h2 {
-  text-align: center;
-  color: darkslategray;
+    Font-size: 30px;
+    text-align: center;
+    color: #233508;
 }
 
-section {
-  text-align: left;
-  outline-style: solid;
-  outline-color: olive;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: ghostwhite;
-  border-radius: 20px;
-  padding: 20px;
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #233508;
 }
 
-img {
-  border-radius: 40px;
+.aboutme {
+    text-align: center;
+    outline-style: solid;
+    outline-color: rgb(162, 162, 74);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.myhobbies {
+    text-align: center;
+    outline-style: solid;
+    outline-color: rgb(162, 162, 74);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.funfacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact {
+    text-align: center;
+    margin-top: 50 20 50 20;
+    padding: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mybutton {
+    background-color: #617c5a;
+    color: #f6f2f2;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.input {
+    padding: 15px;
+    margin: 4px 2px;
+    border: 2px solid #556B2F;
+    border-radius: 10px;
 }
