@@ -1,0 +1,34 @@
+body {Renamed files; shown as the old file marked with D and the new file marked U (Git treats it as
+  font-family: courier new, monospace;
+  text-align: center;
+  color: darkslategray;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  background-color: darkkhaki;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: darkslategray;
+}
+
+section {
+  text-align: left;
+  outline-style: solid;
+  outline-color: olive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: ghostwhite;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+img {
+  border-radius: 40px;
+}
