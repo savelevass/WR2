@@ -58,11 +58,22 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    outline-style: solid;
+    outline-color: rgb(162, 162, 74);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(231, 231, 239);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .fact {
     text-align: center;
-    margin-top: 50 20 50 20;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: ghostwhite;
+    border-radius: 20px;
     padding: 20px;
 }
 
